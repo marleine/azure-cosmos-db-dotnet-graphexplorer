@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  graphexplorer:
+    ports:
+      - "80"
+      - "443"
+networks:
+  default:
+    external:
+      name: nat

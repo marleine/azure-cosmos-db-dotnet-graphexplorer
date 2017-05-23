@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  graphexplorer:
+    image: graphexplorer
+    build:
+      context: .\GraphExplorer
+      dockerfile: Dockerfile
+    ports:
+      - '80:80'
+      - '443:443'
