@@ -292,6 +292,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Dockerfile" />
+    <Content Include="Views\Home\About.cshtml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".dockerignore">

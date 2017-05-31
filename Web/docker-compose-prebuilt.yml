@@ -2,8 +2,10 @@ version: '3'
 
 services:
   graphexplorer:
+    image: jarvisux/graphexplorer:v3
     ports:
       - "80:80"
+
 networks:
   default:
     external:
