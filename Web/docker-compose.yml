@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  graphexplorer:
+    image: graphexplorer-aspnetmvc
+    build:
+      context: .\GraphExplorer
+      dockerfile: Dockerfile
